@@ -1,0 +1,15 @@
+# Original game files: not ours to distribute. Supply your own copy (see README).
+game/
+*.EXE
+*.DAT
+*.CCG
+
+# Derived from the original game: unpacked code and disassembly listings.
+analysis/
+
+# Build output and runtime files.
+build/
+dist/
+*.log
+*.obj
+*.pdb
