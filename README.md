@@ -74,6 +74,12 @@ takes screenshots (see `tools\runtest.ps1`).
 - Bitmap art such as icons is smoothed from the originals, not redrawn.
 - Only drive C exists, and changing directory in the game's file dialogs has no effect.
 
+## Licence
+
+The code in this repository is under the MIT licence (see `LICENSE`). SDL2 in `third_party\SDL2`
+is under its own zlib licence. Carrier Command itself is © Realtime Games Software Ltd and is not
+covered by either; no part of it is included here.
+
 ## Building
 
 Run `powershell -File build.ps1`. It needs Visual Studio 2022 with the C++ tools; SDL2 is included
